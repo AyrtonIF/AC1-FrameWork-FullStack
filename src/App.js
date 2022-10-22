@@ -14,15 +14,13 @@ export default function App() {
      <p><Link to='/Usuario'> Usuario </Link></p>
      <p><Link to='/Informacoes'> Informacões </Link></p>
      <p><Link to='/PaginaDoUsuario'> PaginaDoUsuario </Link></p>
-     <p><Link to='/Api'> Api </Link></p>
     </header>
     <main>
         <Switch>
           <Route path='/Home' component= {Home}/>
           <Route path='/Usuario' component= {Usuario}/>
           <Route path='/Informacoes' component= {Informacoes}/>
-          <Route path='/PaginaDoUsuario' component= {PaginaDoUsuario}/>
-          <Route path='/Api' component= {Api}/>
+          <Route path='/PaginaDoUsuario' component= {PaginaDoUsuario}/>     
         </Switch>
       </main></>
   );
